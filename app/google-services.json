@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "326488201952",
+    "firebase_url": "https://app-penyimpanan-ktp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "app-penyimpanan-ktp",
+    "storage_bucket": "app-penyimpanan-ktp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326488201952:android:4f4a6fe6107d272aedce85",
+        "android_client_info": {
+          "package_name": "com.ardi.aplikasipenyimpananktp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326488201952-dj8vee3srrakr90cgj043cnpm9onvkda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTwiTX3FuzkshO8rlldhllYdsQOxv388A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326488201952-dj8vee3srrakr90cgj043cnpm9onvkda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326488201952:android:6e324488c165d36eedce85",
+        "android_client_info": {
+          "package_name": "com.ardi.apppenyimpananktp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326488201952-dj8vee3srrakr90cgj043cnpm9onvkda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTwiTX3FuzkshO8rlldhllYdsQOxv388A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326488201952-dj8vee3srrakr90cgj043cnpm9onvkda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
