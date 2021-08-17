@@ -19,6 +19,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
@@ -141,6 +142,29 @@ public class ItemsActivity extends AppCompatActivity implements RecyclerAdapter.
 
         @Override
         public boolean onQueryTextChange(String query) {
+            Query fireBaseSearchQuery = mDatabaseRef.orderByChild("nama").startAt(query).endAt(query + "\uf8ff");
+
+            fireBaseSearchQuery.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    mKtps.clear();
+                    if (dataSnapshot.exists() && dataSnapshot.getChildrenCount() > 0) {
+                        for (DataSnapshot ktpSnapshot : dataSnapshot.getChildren()) {
+                            Ktp upload = ktpSnapshot.getValue(Ktp.class);
+                            upload.setKey(ktpSnapshot.getKey());
+                            mKtps.add(upload);
+                        }
+                        mAdapter.notifyDataSetChanged();
+                    } else {
+                        Toast.makeText(ItemsActivity.this, "Tidak ada data", Toast.LENGTH_SHORT).show();
+                    }
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+                    Toast.makeText(ItemsActivity.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
+                }
+            });
             return false;
         }
 
