@@ -1,0 +1,2007 @@
+Index: buang/MyViewHolder.java
+===================================================================
+--- buang/MyViewHolder.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ buang/MyViewHolder.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
+@@ -1,19 +0,0 @@
+-package com.ardi.apppenyimpananktp;
+-
+-import android.view.View;
+-import android.widget.ImageView;
+-import android.widget.TextView;
+-
+-import androidx.annotation.NonNull;
+-import androidx.recyclerview.widget.RecyclerView;
+-
+-public class MyViewHolder extends RecyclerView.ViewHolder {
+-    ImageView fotoKtpImageView;
+-    TextView namaDetailTextView;
+-    TextView nikDetailTextView;
+-    TextView dateDetailTextView;
+-
+-    public MyViewHolder(@NonNull View itemView){
+-        super(itemView);
+-    }
+-}
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/values/strings.xml	(date 1629184670000)
+Index: app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/colors.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/values/colors.xml	(date 1629184670000)
+Index: app/src/main/res/drawable/ic_search.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/ic_search.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/drawable/ic_search.xml	(date 1629184670000)
+Index: app/src/main/res/values/styles.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/styles.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/values/styles.xml	(date 1629184670000)
+Index: app/src/main/res/drawable/ic_baseline_search_24.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/ic_baseline_search_24.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/drawable/ic_baseline_search_24.xml	(date 1629184670000)
+Index: app/src/main/res/layout/row_model.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/row_model.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/layout/row_model.xml	(date 1629184670000)
+Index: app/src/main/res/menu/searchmenu.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/searchmenu.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/menu/searchmenu.xml	(date 1629184670000)
+Index: app/src/main/res/layout/activity_upload.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_upload.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/layout/activity_upload.xml	(date 1629184670000)
+Index: app/src/main/res/layout/activity_items.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_items.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/layout/activity_items.xml	(date 1629184670000)
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/layout/activity_main.xml	(date 1629184670000)
+Index: app/src/main/res/layout/activity_detail.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_detail.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/layout/activity_detail.xml	(date 1629184670000)
+Index: app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml	(date 1629184670000)
+Index: app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(date 1629184670000)
+Index: app/src/main/res/drawable-v24/ic_baseline_add_circle_outline_24.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable-v24/ic_baseline_add_circle_outline_24.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/drawable-v24/ic_baseline_add_circle_outline_24.xml	(date 1629184670000)
+Index: app/src/main/res/drawable-v24/ic_launcher_background.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable-v24/ic_launcher_background.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/drawable-v24/ic_launcher_background.xml	(date 1629184670000)
+Index: app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable-v24/ic_launcher_foreground.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/res/drawable-v24/ic_launcher_foreground.xml	(date 1629184670000)
+Index: app/src/main/java/com/ardi/apppenyimpananktp/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/MainActivity.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/java/com/ardi/apppenyimpananktp/MainActivity.java	(date 1629184670000)
+Index: app/src/main/res/menu/layout/user_nav_header_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/user_nav_header_main.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/user_nav_header_main.xml	(date 1610031835000)
+@@ -0,0 +1,35 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    android:layout_width="match_parent"
++    android:layout_height="@dimen/nav_header_height"
++    android:background="@drawable/side_nav_bar"
++    android:gravity="bottom"
++    android:orientation="vertical"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:theme="@style/ThemeOverlay.AppCompat.Dark">
++
++    <ImageView
++        android:id="@+id/imageView"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:contentDescription="@string/nav_header_desc"
++        android:paddingTop="@dimen/nav_header_vertical_spacing"
++        app:srcCompat="@mipmap/ic_launcher_round" />
++
++    <TextView
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:paddingTop="@dimen/nav_header_vertical_spacing"
++        android:text="@string/nav_header_title"
++        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
++
++    <TextView
++        android:id="@+id/textView"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="@string/nav_header_subtitle" />
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/test/java/com/ardi/apppenyimpananktp/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/test/java/com/ardi/apppenyimpananktp/ExampleUnitTest.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/test/java/com/ardi/apppenyimpananktp/ExampleUnitTest.java	(date 1629184670000)
+Index: app/src/main/res/menu/layout/user_fragment_gallery.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/user_fragment_gallery.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/user_fragment_gallery.xml	(date 1610031835000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".user_ui.GalleryFragment">
++
++    <TextView
++        android:id="@+id/text_gallery"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="8dp"
++        android:layout_marginTop="8dp"
++        android:layout_marginEnd="8dp"
++        android:textAlignment="center"
++        android:textSize="20sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/menu/layout/user_content_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/user_content_main.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/user_content_main.xml	(date 1610031835000)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    app:layout_behavior="@string/appbar_scrolling_view_behavior"
++    tools:showIn="@layout/user_app_bar_main">
++
++    <fragment
++        android:id="@+id/nav_host_fragment"
++        android:name="androidx.navigation.fragment.NavHostFragment"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        app:defaultNavHost="true"
++        app:layout_constraintLeft_toLeftOf="parent"
++        app:layout_constraintRight_toRightOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:navGraph="@navigation/user_mobile_navigation" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/menu/layout/user_fragment_slideshow.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/user_fragment_slideshow.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/user_fragment_slideshow.xml	(date 1610031835000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".user_ui.SlideshowFragment">
++
++    <TextView
++        android:id="@+id/text_slideshow"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="8dp"
++        android:layout_marginTop="8dp"
++        android:layout_marginEnd="8dp"
++        android:textAlignment="center"
++        android:textSize="20sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/menu/layout/user_fragment_home.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/user_fragment_home.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/user_fragment_home.xml	(date 1610031835000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".user_ui.HomeFragment">
++
++    <TextView
++        android:id="@+id/text_home"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="8dp"
++        android:layout_marginTop="8dp"
++        android:layout_marginEnd="8dp"
++        android:textAlignment="center"
++        android:textSize="20sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/ardi/apppenyimpananktp/RecyclerAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/RecyclerAdapter.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/java/com/ardi/apppenyimpananktp/RecyclerAdapter.java	(date 1629184670000)
+Index: app/src/main/java/com/ardi/apppenyimpananktp/Ktp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/Ktp.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/java/com/ardi/apppenyimpananktp/Ktp.java	(date 1629184670000)
+Index: app/src/main/java/com/ardi/apppenyimpananktp/UploadActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/UploadActivity.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/java/com/ardi/apppenyimpananktp/UploadActivity.java	(date 1629184670000)
+Index: app/src/main/java/com/ardi/apppenyimpananktp/ItemsActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/ItemsActivity.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/java/com/ardi/apppenyimpananktp/ItemsActivity.java	(date 1629532501387)
+Index: app/src/main/java/com/ardi/apppenyimpananktp/DetailsActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/DetailsActivity.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/java/com/ardi/apppenyimpananktp/DetailsActivity.java	(date 1629184670000)
+Index: gradlew.bat
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gradlew.bat	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ gradlew.bat	(date 1629184670000)
+Index: app/src/main/res/layout/activity_main_user.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main_user.xml	(date 1629531042410)
++++ app/src/main/res/layout/activity_main_user.xml	(date 1629531042410)
+@@ -0,0 +1,47 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:background="#009688"
++    tools:context=".MainActivityUser">
++
++    <TextView
++        android:id="@+id/headerTxt"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:text="Aplikasi Penyimpanan KTP"
++        android:textAlignment="center"
++        android:fontFamily="casual"
++        android:textStyle="bold"
++        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
++
++    <ImageView
++        android:layout_width="347dp"
++        android:layout_height="311dp"
++        android:layout_above="@+id/button_zone"
++        android:layout_below="@+id/headerTxt"
++        android:layout_centerHorizontal="true"
++        android:layout_marginTop="-4dp"
++        android:contentDescription="@string/app_name"
++        android:src="@drawable/ktp" />
++
++    <LinearLayout
++        android:id="@+id/button_zone"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="horizontal"
++        android:layout_centerInParent="true">
++
++        <Button
++            android:id="@+id/bukaDataKtp"
++            style="?android:attr/button"
++            android:layout_width="0dp"
++            android:layout_height="wrap_content"
++            android:layout_weight="1"
++            android:text="Tampilkan Data"/>
++
++    </LinearLayout>
++
++</RelativeLayout>
+Index: app/src/main/res/layout/activity_welcome.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_welcome.xml	(date 1629523860041)
++++ app/src/main/res/layout/activity_welcome.xml	(date 1629523860041)
+@@ -0,0 +1,49 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:layout_margin="10dp"
++    android:orientation="vertical"
++    tools:context=".UILogin.WelcomeActivity">
++
++    <TextView
++        android:id="@+id/Title"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:background="#F1F1F1"
++        android:text="@string/app_name"
++        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
++        android:textColor="@android:color/black" />
++
++    <TextView
++        android:id="@+id/signUpPageTitle"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:background="#F1F1F1"
++        android:text="Selamat Datang"
++        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
++        android:textColor="@android:color/black" />
++
++    <RelativeLayout
++        android:layout_width="match_parent"
++        android:layout_height="match_parent">
++
++        <Button
++            android:id="@+id/welcomeSignInButton"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_centerInParent="true"
++            android:layout_marginTop="12dp"
++            android:text="Masuk" />
++
++        <Button
++            android:id="@+id/welcomeSignUpButton"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_above="@id/welcomeSignInButton"
++            android:layout_centerInParent="true"
++            android:text="Daftar" />
++    </RelativeLayout>
++
++</LinearLayout>
+\ No newline at end of file
+Index: gradlew
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gradlew	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ gradlew	(date 1629184670000)
+Index: app/src/main/res/layout/activity_sign_up.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_sign_up.xml	(date 1629219226879)
++++ app/src/main/res/layout/activity_sign_up.xml	(date 1629219226879)
+@@ -0,0 +1,90 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:layout_margin="10dp"
++    android:orientation="vertical"
++    tools:context=".UILogin.SignUpActivity">
++
++
++    <TextView
++        android:id="@+id/Title"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:background="#F1F1F1"
++        android:text="@string/app_name"
++        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
++        android:textColor="@android:color/black" />
++
++    <TextView
++        android:id="@+id/signUpPageTitle"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:background="#F1F1F1"
++        android:text="Daftar"
++        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
++        android:textColor="@android:color/black" />
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:layout_marginTop="10dp"
++        android:orientation="vertical">
++
++        <TextView
++            android:id="@+id/signUpEmailTitle"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Email"
++            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
++
++        <EditText
++            android:id="@+id/signUpEmailTextInput"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:autofillHints=""
++            android:ems="10"
++            android:hint="user@domain.com"
++            android:inputType="textEmailAddress"
++            tools:targetApi="o" />
++
++        <TextView
++            android:id="@+id/SignUpPasswordTitle"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Password"
++            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
++
++        <EditText
++            android:id="@+id/signUpPasswordTextInput"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:autofillHints=""
++            android:ems="10"
++            android:hint="Password"
++            android:inputType="textPassword"
++            tools:targetApi="o" />
++
++        <CheckBox
++            android:id="@+id/agreementCheckbox"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Setuju dan wajip patuh dalam persetujuan" />
++
++        <Button
++            android:id="@+id/signUpButton"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Daftar" />
++
++        <TextView
++            android:id="@+id/signUpErrorView"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Tampilan Error" />
++
++    </LinearLayout>
++
++
++</LinearLayout>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1629535537586)
++++ .idea/vcs.xml	(date 1629535537586)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/apppenyimpananktp" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/java/com/ardi/apppenyimpananktp/UILogin/WelcomeActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/UILogin/WelcomeActivity.java	(date 1629218150069)
++++ app/src/main/java/com/ardi/apppenyimpananktp/UILogin/WelcomeActivity.java	(date 1629218150069)
+@@ -0,0 +1,116 @@
++package com.ardi.apppenyimpananktp.UILogin;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import com.ardi.apppenyimpananktp.R;
++import com.google.android.gms.tasks.OnSuccessListener;
++import com.google.firebase.auth.FirebaseAuth;
++import com.google.firebase.auth.FirebaseUser;
++
++import static android.view.View.INVISIBLE;
++import static android.view.View.VISIBLE;
++
++public class WelcomeActivity extends AppCompatActivity {
++
++
++    public Integer REQUEST_EXIT = 9;
++    public FirebaseAuth mAuth;
++    public FirebaseUser currentUser;
++    Button signUpButton;
++    Button signInButton;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_welcome);
++
++
++        mAuth = FirebaseAuth.getInstance();
++
++
++        signUpButton = findViewById(R.id.welcomeSignUpButton);
++        signInButton = findViewById(R.id.welcomeSignInButton);
++
++        signInButton.setVisibility(INVISIBLE);
++        signUpButton.setVisibility(INVISIBLE);
++
++        if (mAuth.getCurrentUser() != null) {
++            mAuth.getCurrentUser().reload().addOnSuccessListener(new OnSuccessListener<Void>() {
++                @Override
++                public void onSuccess(Void aVoid) {
++
++                    currentUser = mAuth.getCurrentUser();
++
++
++                    if (currentUser != null && currentUser.isEmailVerified()) {
++
++
++                        System.out.println("Email Verified : " + currentUser.isEmailVerified());
++
++                        Intent MainActivity = new Intent(WelcomeActivity.this, com.ardi.apppenyimpananktp.MainActivity.class);
++                        startActivity(MainActivity);
++                        WelcomeActivity.this.finish();
++
++
++                    }
++                }
++            });
++
++        } else {
++
++            signInButton.setVisibility(VISIBLE);
++            signUpButton.setVisibility(VISIBLE);
++
++            System.out.println("user not available");
++
++        }
++
++        signUpButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++
++
++                Intent signUpIntent = new Intent(WelcomeActivity.this, SignUpActivity.class);
++
++                startActivity(signUpIntent);
++
++
++            }
++        });
++
++
++        signInButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++
++
++                Intent signInIntent = new Intent(WelcomeActivity.this, SignInActivity.class);
++
++                startActivityForResult(signInIntent, REQUEST_EXIT);
++
++
++            }
++        });
++
++    }
++
++
++    @Override
++    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
++
++        if (requestCode == REQUEST_EXIT) {
++            if (resultCode == RESULT_OK) {
++                this.finish();
++
++            }
++        }
++    }
++
++
++
++}
+Index: gradle.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+--- gradle.properties	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ gradle.properties	(date 1629184670000)
+Index: app/src/main/java/com/ardi/apppenyimpananktp/UILogin/SignUpActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/UILogin/SignUpActivity.java	(date 1629528935585)
++++ app/src/main/java/com/ardi/apppenyimpananktp/UILogin/SignUpActivity.java	(date 1629528935585)
+@@ -0,0 +1,180 @@
++package com.ardi.apppenyimpananktp.UILogin;
++
++import android.content.DialogInterface;
++import android.content.Intent;
++import android.os.Bundle;
++import android.util.Log;
++import android.view.View;
++import android.widget.Button;
++import android.widget.CheckBox;
++import android.widget.EditText;
++import android.widget.TextView;
++import android.widget.Toast;
++
++import androidx.annotation.NonNull;
++import androidx.appcompat.app.AlertDialog;
++import androidx.appcompat.app.AppCompatActivity;
++
++import com.ardi.apppenyimpananktp.R;
++import com.google.android.gms.tasks.OnCompleteListener;
++import com.google.android.gms.tasks.OnFailureListener;
++import com.google.android.gms.tasks.OnSuccessListener;
++import com.google.android.gms.tasks.Task;
++import com.google.firebase.auth.AuthResult;
++import com.google.firebase.auth.FirebaseAuth;
++import com.google.firebase.auth.FirebaseUser;
++import com.google.firebase.database.FirebaseDatabase;
++
++import java.util.HashMap;
++import java.util.Map;
++
++
++public class SignUpActivity extends AppCompatActivity {
++
++
++    private static final String TAG = "SignUpActivity";
++    public FirebaseAuth mAuth;
++    public FirebaseDatabase mDbase;
++    Button signUpButton;
++    EditText signUpEmailTextInput;
++    EditText signUpPasswordTextInput;
++    EditText signUpStatusTextInput;
++    CheckBox agreementCheckBox;
++    TextView errorView;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_sign_up);
++
++
++        mAuth = FirebaseAuth.getInstance();
++        mDbase= FirebaseDatabase.getInstance();
++
++        signUpEmailTextInput = findViewById(R.id.signUpEmailTextInput);
++        signUpPasswordTextInput = findViewById(R.id.signUpPasswordTextInput);
++        signUpButton = findViewById(R.id.signUpButton);
++        agreementCheckBox = findViewById(R.id.agreementCheckbox);
++        errorView = findViewById(R.id.signUpErrorView);
++
++
++        signUpButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++
++                if (signUpEmailTextInput.getText().toString().contentEquals("")) {
++
++
++                    errorView.setText("Email cannot be empty");
++
++
++                } else if (signUpPasswordTextInput.getText().toString().contentEquals("")) {
++
++
++                    errorView.setText("Password cannot be empty");
++
++
++                } else if (!agreementCheckBox.isChecked()) {
++                    signUpPasswordTextInput.setText("1");
++                    errorView.setText("Please agree to terms and Condition");
++
++
++                } else {
++
++
++                    mAuth.createUserWithEmailAndPassword(signUpEmailTextInput.getText().toString(), signUpPasswordTextInput.getText().toString()).addOnCompleteListener(SignUpActivity.this, new OnCompleteListener<AuthResult>() {
++                        @Override
++                        public void onComplete(@NonNull Task<AuthResult> task) {
++
++
++                            if (task.isSuccessful()) {
++                                // Sign in success, update UI with the signed-in user's information
++                                Log.d(TAG, "createUserWithEmail:success");
++                                FirebaseUser user = mAuth.getCurrentUser();
++
++                                try {
++                                    if (user != null)
++                                        user.sendEmailVerification()
++                                                .addOnCompleteListener(new OnCompleteListener<Void>() {
++                                                    @Override
++                                                    public void onComplete(@NonNull Task<Void> task) {
++                                                        if (task.isSuccessful()) {
++                                                            Log.d(TAG, "Email sent.");
++
++                                                            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
++                                                                    SignUpActivity.this);
++
++                                                            // set title
++                                                            alertDialogBuilder.setTitle("Please Verify Your EmailID");
++
++                                                            // set dialog message
++                                                            alertDialogBuilder
++                                                                    .setMessage("A verification Email Is Sent To Your Registered EmailID, please click on the link and Sign in again!")
++                                                                    .setCancelable(false)
++                                                                    .setPositiveButton("Sign In", new DialogInterface.OnClickListener() {
++                                                                        public void onClick(DialogInterface dialog, int id) {
++
++                                                                            Intent signInIntent = new Intent(SignUpActivity.this, SignInActivity.class);
++                                                                            SignUpActivity.this.finish();
++                                                                        }
++                                                                    });
++
++                                                            // create alert dialog
++                                                            AlertDialog alertDialog = alertDialogBuilder.create();
++
++                                                            // show it
++                                                            alertDialog.show();
++
++
++                                                        }
++                                                    }
++                                                });
++
++                                } catch (Exception e) {
++                                    errorView.setText(e.getMessage());
++                                }
++                            } else {
++                                // If sign in fails, display a message to the user.
++                                Log.w(TAG, "createUserWithEmail:failure", task.getException());
++                                Toast.makeText(SignUpActivity.this, "Authentication failed.",
++                                        Toast.LENGTH_SHORT).show();
++
++                                if (task.getException() != null) {
++                                    errorView.setText(task.getException().getMessage());
++                                }
++
++                            }
++
++                        }
++                    });
++                    Map<String,Object> map=new HashMap<>();
++                    map.put("email",signUpEmailTextInput.getText().toString());
++                    map.put("password",signUpPasswordTextInput.getText().toString());
++                    map.put("status",signUpStatusTextInput.getText().toString());
++                    mDbase.getInstance().getReference().child("USER").push()
++                            .setValue(map)
++                            .addOnSuccessListener(new OnSuccessListener<Void>() {
++                                @Override
++                                public void onSuccess(Void aVoid) {
++                                    signUpEmailTextInput.setText("");
++                                    signUpPasswordTextInput.setText("");
++                                    signUpEmailTextInput.setText("");
++                                    Toast.makeText(getApplicationContext(),"Inserted Successfully",Toast.LENGTH_LONG).show();
++                                }
++                            })
++                            .addOnFailureListener(new OnFailureListener() {
++                                @Override
++                                public void onFailure(@NonNull Exception e)
++                                {
++                                    Toast.makeText(getApplicationContext(),"Could not insert",Toast.LENGTH_LONG).show();
++                                }
++                            });
++                }
++
++            }
++        });
++
++
++
++    }
++}
+Index: settings.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- settings.gradle	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ settings.gradle	(date 1629184670000)
+Index: app/src/main/res/layout/activity_sign_in.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_sign_in.xml	(date 1629219032191)
++++ app/src/main/res/layout/activity_sign_in.xml	(date 1629219032191)
+@@ -0,0 +1,95 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:layout_margin="10dp"
++    android:orientation="vertical"
++    tools:context=".UILogin.SignInActivity">
++
++
++    <TextView
++        android:id="@+id/Title"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:background="#F1F1F1"
++        android:text="@string/app_name"
++        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
++        android:textColor="@android:color/black" />
++
++    <TextView
++        android:id="@+id/signUpPageTitle"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:background="#F1F1F1"
++        android:text="Masuk"
++        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
++        android:textColor="@android:color/black" />
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:layout_marginTop="10dp"
++        android:orientation="vertical">
++
++        <TextView
++            android:id="@+id/signInEmailTitle"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Email"
++            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
++
++        <EditText
++            android:id="@+id/signInEmailTextInput"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:autofillHints=""
++            android:ems="10"
++            android:hint="user@domain.com"
++            android:inputType="textEmailAddress"
++            tools:targetApi="o" />
++
++        <TextView
++            android:id="@+id/SignInPasswordTitle"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Password"
++            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
++
++        <EditText
++            android:id="@+id/signInPasswordTextInput"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:autofillHints=""
++            android:ems="10"
++            android:hint="Password"
++            android:inputType="textPassword"
++            tools:targetApi="o" />
++
++        <Button
++            android:id="@+id/signInButton"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Masuk" />
++
++        <Button
++            android:id="@+id/forgotPasswordButton"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Lupa Password" />
++
++        <TextView
++            android:id="@+id/signInErrorView"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Tampilan Error" />
++
++        <Button
++            android:id="@+id/verifyEmailAgainButton"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:text="Kirim Email Verifikasi" />
++
++    </LinearLayout>
++
++</LinearLayout>
+Index: app/src/main/res/layout/activity_forgot_password.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_forgot_password.xml	(date 1629218854093)
++++ app/src/main/res/layout/activity_forgot_password.xml	(date 1629218854093)
+@@ -0,0 +1,53 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:layout_margin="10dp"
++    android:orientation="vertical"
++    tools:context=".UILogin.ForgotPasswordActivity">
++
++
++    <TextView
++        android:id="@+id/Title"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:background="#F1F1F1"
++        android:text="@string/app_name"
++        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
++        android:textColor="@android:color/black" />
++
++    <TextView
++        android:id="@+id/ForgotPasswordPageTitle"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:background="#F1F1F1"
++        android:text="Lupa Password"
++        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
++        android:textColor="@android:color/black" />
++
++    <TextView
++        android:id="@+id/fpEmailTitle"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="10dp"
++        android:text="Masukkan Email"
++        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
++
++    <EditText
++        android:id="@+id/fpEmailTextInput"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:autofillHints=""
++        android:ems="10"
++        android:hint="Masukkan Password"
++        android:inputType="textEmailAddress"
++        tools:targetApi="o" />
++
++    <Button
++        android:id="@+id/resetPasswordButton"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:text="Lupa Password" />
++
++</LinearLayout>
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ .gitignore	(date 1629184670000)
+Index: app/src/main/res/menu/layout/admin_fragment_notifications.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/admin_fragment_notifications.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/admin_fragment_notifications.xml	(date 1610031835000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".admin_ui.NotificationsFragment">
++
++    <TextView
++        android:id="@+id/text_notifications"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="8dp"
++        android:layout_marginTop="8dp"
++        android:layout_marginEnd="8dp"
++        android:textAlignment="center"
++        android:textSize="20sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/menu/layout/admin_fragment_home.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/admin_fragment_home.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/admin_fragment_home.xml	(date 1610031835000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".admin_ui.HomeFragment">
++
++    <TextView
++        android:id="@+id/text_home"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="8dp"
++        android:layout_marginTop="8dp"
++        android:layout_marginEnd="8dp"
++        android:textAlignment="center"
++        android:textSize="20sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/menu/layout/user_app_bar_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/user_app_bar_main.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/user_app_bar_main.xml	(date 1610031835000)
+@@ -0,0 +1,33 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".UserActivity">
++
++    <com.google.android.material.appbar.AppBarLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:theme="@style/Theme.LoginDatabaserealtime.AppBarOverlay">
++
++        <androidx.appcompat.widget.Toolbar
++            android:id="@+id/toolbar"
++            android:layout_width="match_parent"
++            android:layout_height="?attr/actionBarSize"
++            android:background="?attr/colorPrimary"
++            app:popupTheme="@style/Theme.LoginDatabaserealtime.PopupOverlay" />
++
++    </com.google.android.material.appbar.AppBarLayout>
++
++    <include layout="@layout/user_content_main" />
++
++    <com.google.android.material.floatingactionbutton.FloatingActionButton
++        android:id="@+id/fab"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="bottom|end"
++        android:layout_margin="@dimen/fab_margin"
++        app:srcCompat="@android:drawable/ic_dialog_email" />
++
++</androidx.coordinatorlayout.widget.CoordinatorLayout>
+\ No newline at end of file
+Index: app/src/androidTest/java/com/ardi/apppenyimpananktp/ExampleInstrumentedTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/androidTest/java/com/ardi/apppenyimpananktp/ExampleInstrumentedTest.java	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/androidTest/java/com/ardi/apppenyimpananktp/ExampleInstrumentedTest.java	(date 1629184670000)
+Index: app/src/main/res/menu/layout/user_activity_user.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/user_activity_user.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/user_activity_user.xml	(date 1610031835000)
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/drawer_layout"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:fitsSystemWindows="true"
++    tools:openDrawer="start">
++
++    <include
++        layout="@layout/user_app_bar_main"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent" />
++
++    <com.google.android.material.navigation.NavigationView
++        android:id="@+id/nav_view"
++        android:layout_width="wrap_content"
++        android:layout_height="match_parent"
++        android:layout_gravity="start"
++        android:fitsSystemWindows="true"
++        app:headerLayout="@layout/user_nav_header_main"
++        app:menu="@menu/activity_user_drawer" />
++</androidx.drawerlayout.widget.DrawerLayout>
+\ No newline at end of file
+Index: app/release/output.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/release/output.json	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/release/output.json	(date 1629184670000)
+Index: app/src/main/res/menu/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/activity_main.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/activity_main.xml	(date 1610031835000)
+@@ -0,0 +1,55 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:gravity="center"
++    android:orientation="vertical"
++    tools:context=".MainActivity">
++
++    <EditText
++        android:id="@+id/username"
++        android:inputType="text"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="20dp"
++        android:layout_marginEnd="20dp"
++        android:background="@drawable/input_text"
++        android:hint="Username"
++        android:padding="10dp" />
++
++    <EditText
++        android:id="@+id/password"
++        android:inputType="textPassword"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="20dp"
++        android:layout_marginTop="10dp"
++        android:layout_marginEnd="20dp"
++        android:background="@drawable/input_text"
++        android:hint="Password"
++        android:padding="10dp" />
++
++    <Switch
++        android:id="@+id/active"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="20dp"
++        android:layout_marginTop="10dp"
++        android:layout_marginEnd="20dp"
++        android:gravity="end"
++        android:text="Remeber me" />
++
++
++    <Button
++        android:id="@+id/login"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="20dp"
++        android:layout_marginTop="20dp"
++        android:layout_marginEnd="20dp"
++        android:background="@drawable/button_login"
++        android:text="Login" />
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/menu/layout/admin_fragment_dashboard.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/admin_fragment_dashboard.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/admin_fragment_dashboard.xml	(date 1610031835000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".admin_ui.DashboardFragment">
++
++    <TextView
++        android:id="@+id/text_dashboard"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="8dp"
++        android:layout_marginTop="8dp"
++        android:layout_marginEnd="8dp"
++        android:textAlignment="center"
++        android:textSize="20sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+--- gradle/wrapper/gradle-wrapper.properties	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ gradle/wrapper/gradle-wrapper.properties	(date 1629184670000)
+Index: app/src/main/res/menu/layout/admin_activity_admin.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/layout/admin_activity_admin.xml	(date 1610031835000)
++++ app/src/main/res/menu/layout/admin_activity_admin.xml	(date 1610031835000)
+@@ -0,0 +1,33 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    android:id="@+id/container"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingTop="?attr/actionBarSize">
++
++    <com.google.android.material.bottomnavigation.BottomNavigationView
++        android:id="@+id/nav_view"
++        android:layout_width="0dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="0dp"
++        android:layout_marginEnd="0dp"
++        android:background="?android:attr/windowBackground"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintLeft_toLeftOf="parent"
++        app:layout_constraintRight_toRightOf="parent"
++        app:menu="@menu/bottom_nav_menu" />
++
++    <fragment
++        android:id="@+id/nav_host_fragment"
++        android:name="androidx.navigation.fragment.NavHostFragment"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        app:defaultNavHost="true"
++        app:layout_constraintBottom_toTopOf="@id/nav_view"
++        app:layout_constraintLeft_toLeftOf="parent"
++        app:layout_constraintRight_toRightOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:navGraph="@navigation/admin_mobile_navigation" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: .idea/runConfigurations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/runConfigurations.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ .idea/runConfigurations.xml	(date 1629184670000)
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ .idea/misc.xml	(date 1629535559323)
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/build.gradle	(date 1629509434937)
+@@ -37,7 +37,7 @@
+     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+     implementation 'androidx.annotation:annotation:1.1.0'
+ 
+-//    implementation 'com.google.firebase:firebase-auth:11.8.0'
++    implementation 'com.google.firebase:firebase-auth:11.8.0'
+     implementation 'com.google.firebase:firebase-database:11.8.0'
+     implementation 'com.firebaseui:firebase-ui-database:3.2.2'
+     implementation 'com.google.firebase:firebase-storage:11.8.0'
+Index: app/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/proguard-rules.pro	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/proguard-rules.pro	(date 1629184670000)
+Index: .gitattributes
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitattributes	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ .gitattributes	(date 1629184670000)
+Index: app/src/main/java/com/ardi/apppenyimpananktp/UILogin/SignInActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/UILogin/SignInActivity.java	(date 1629218150121)
++++ app/src/main/java/com/ardi/apppenyimpananktp/UILogin/SignInActivity.java	(date 1629218150121)
+@@ -0,0 +1,131 @@
++package com.ardi.apppenyimpananktp.UILogin;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.util.Log;
++import android.view.View;
++import android.widget.Button;
++import android.widget.EditText;
++import android.widget.TextView;
++import android.widget.Toast;
++
++import androidx.annotation.NonNull;
++import androidx.appcompat.app.AppCompatActivity;
++
++import com.ardi.apppenyimpananktp.MainActivity;
++import com.ardi.apppenyimpananktp.R;
++import com.google.android.gms.tasks.OnCompleteListener;
++import com.google.android.gms.tasks.Task;
++import com.google.firebase.auth.AuthResult;
++import com.google.firebase.auth.FirebaseAuth;
++import com.google.firebase.auth.FirebaseUser;
++
++public class SignInActivity extends AppCompatActivity {
++
++    private static final String TAG = "SignInActivity";
++    public FirebaseAuth mAuth;
++    EditText emailTextInput;
++    EditText passwordTextInput;
++    Button signInButton;
++    Button forgotPasswordButton;
++    Button sendVerifyMailAgainButton;
++    TextView errorView;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_sign_in);
++
++        emailTextInput = findViewById(R.id.signInEmailTextInput);
++        passwordTextInput = findViewById(R.id.signInPasswordTextInput);
++        signInButton = findViewById(R.id.signInButton);
++        forgotPasswordButton = findViewById(R.id.forgotPasswordButton);
++        sendVerifyMailAgainButton = findViewById(R.id.verifyEmailAgainButton);
++        errorView = findViewById(R.id.signInErrorView);
++
++        sendVerifyMailAgainButton.setVisibility(View.INVISIBLE);
++
++        mAuth = FirebaseAuth.getInstance();
++
++        signInButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++
++                if (emailTextInput.getText().toString().contentEquals("")) {
++
++
++                    errorView.setText("Email cant be empty");
++
++
++                } else if (passwordTextInput.getText().toString().contentEquals("")) {
++
++                    errorView.setText("Password cant be empty");
++
++                } else {
++
++
++                    mAuth.signInWithEmailAndPassword(emailTextInput.getText().toString(), passwordTextInput.getText().toString())
++                            .addOnCompleteListener(SignInActivity.this, new OnCompleteListener<AuthResult>() {
++                                @Override
++                                public void onComplete(@NonNull Task<AuthResult> task) {
++                                    if (task.isSuccessful()) {
++                                        // Sign in success, update UI with the signed-in user's information
++                                        Log.d(TAG, "signInWithEmail:success");
++
++                                        FirebaseUser user = mAuth.getCurrentUser();
++
++                                        if (user != null) {
++                                            if (user.isEmailVerified()) {
++
++                                                
++                                                System.out.println("Email Verified : " + user.isEmailVerified());
++                                                Intent HomeActivity = new Intent(SignInActivity.this, MainActivity.class);
++                                                setResult(RESULT_OK, null);
++                                                startActivity(HomeActivity);
++                                                SignInActivity.this.finish();
++
++
++                                            } else {
++
++                                                sendVerifyMailAgainButton.setVisibility(View.VISIBLE);
++                                                errorView.setText("Please Verify your EmailID and SignIn");
++
++                                            }
++                                        }
++
++                                    } else {
++                                        // If sign in fails, display a message to the user.
++                                        Log.w(TAG, "signInWithEmail:failure", task.getException());
++                                        Toast.makeText(SignInActivity.this, "Authentication failed.",
++                                                Toast.LENGTH_SHORT).show();
++                                        if (task.getException() != null) {
++                                            errorView.setText(task.getException().getMessage());
++                                        }
++
++                                    }
++
++                                }
++                            });
++
++
++                }
++
++
++            }
++        });
++
++
++        forgotPasswordButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++
++                Intent forgotPasswordActivity = new Intent(SignInActivity.this, ForgotPasswordActivity.class);
++                startActivity(forgotPasswordActivity);
++                SignInActivity.this.finish();
++
++            }
++        });
++
++
++    }
++}
+Index: app/src/main/java/com/ardi/apppenyimpananktp/UILogin/ForgotPasswordActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/UILogin/ForgotPasswordActivity.java	(date 1629218150089)
++++ app/src/main/java/com/ardi/apppenyimpananktp/UILogin/ForgotPasswordActivity.java	(date 1629218150089)
+@@ -0,0 +1,80 @@
++package com.ardi.apppenyimpananktp.UILogin;
++
++import android.content.DialogInterface;
++import android.os.Bundle;
++import android.util.Log;
++import android.view.View;
++import android.widget.Button;
++import android.widget.EditText;
++
++import androidx.annotation.NonNull;
++import androidx.appcompat.app.AlertDialog;
++import androidx.appcompat.app.AppCompatActivity;
++
++import com.ardi.apppenyimpananktp.R;
++import com.google.android.gms.tasks.OnCompleteListener;
++import com.google.android.gms.tasks.Task;
++import com.google.firebase.auth.FirebaseAuth;
++
++public class ForgotPasswordActivity extends AppCompatActivity {
++
++
++    private static final String TAG = "ForgotPasswordActivity";
++    public FirebaseAuth mAuth;
++    Button resetPasswordButton;
++    EditText emailTextInput;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_forgot_password);
++
++
++        emailTextInput = findViewById(R.id.fpEmailTextInput);
++        resetPasswordButton = findViewById(R.id.resetPasswordButton);
++        mAuth = FirebaseAuth.getInstance();
++
++
++        resetPasswordButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++
++
++                mAuth.sendPasswordResetEmail(emailTextInput.getText().toString())
++                        .addOnCompleteListener(new OnCompleteListener<Void>() {
++                            @Override
++                            public void onComplete(@NonNull Task<Void> task) {
++                                if (task.isSuccessful()) Log.d(TAG, "Email sent.");
++
++
++                                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
++                                        ForgotPasswordActivity.this);
++
++                                // set title
++                                alertDialogBuilder.setTitle("Reset Password");
++
++                                // set dialog message
++                                alertDialogBuilder
++                                        .setMessage("A Reset Password Link Is Sent To Your Registered EmailID")
++                                        .setCancelable(false)
++                                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
++                                            public void onClick(DialogInterface dialog, int id) {
++
++                                                ForgotPasswordActivity.this.finish();
++                                            }
++                                        });
++
++                                AlertDialog alertDialog = alertDialogBuilder.create();
++                                alertDialog.show();
++
++
++                            }
++                        });
++
++
++            }
++        });
++
++
++    }
++}
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build.gradle	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ build.gradle	(date 1629184670000)
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/jarRepositories.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ .idea/jarRepositories.xml	(date 1629184670000)
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/gradle.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ .idea/gradle.xml	(date 1629184670000)
+Index: app/src/main/java/com/ardi/apppenyimpananktp/MainActivityUser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/MainActivityUser.java	(date 1629532001787)
++++ app/src/main/java/com/ardi/apppenyimpananktp/MainActivityUser.java	(date 1629532001787)
+@@ -0,0 +1,33 @@
++package com.ardi.apppenyimpananktp;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++public class MainActivityUser extends AppCompatActivity {
++
++//Inisiasi tombol menu halaman depan
++// bukaDataKtp : tombol untuk ke menu Daftar KTP
++// tambahData : tombol untuk ke menu Tambah Data
++
++    private Button bukaDataKtp;
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate ( savedInstanceState );
++        setContentView ( R.layout.activity_main_user);
++
++        bukaDataKtp = findViewById ( R.id.bukaDataKtp );
++
++        bukaDataKtp.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                Intent i = new Intent(MainActivityUser.this, ItemsActivity.class);
++                startActivity(i);
++            }
++        });
++
++    }
++}
+Index: .idea/codeStyles/Project.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/codeStyles/Project.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ .idea/codeStyles/Project.xml	(date 1629184670000)
+Index: app/google-services.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/google-services.json	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/google-services.json	(date 1629184670000)
+Index: app/src/main/java/com/ardi/apppenyimpananktp/ItemsActivityUser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ardi/apppenyimpananktp/ItemsActivityUser.java	(date 1629533488268)
++++ app/src/main/java/com/ardi/apppenyimpananktp/ItemsActivityUser.java	(date 1629533488268)
+@@ -0,0 +1,158 @@
++package com.ardi.apppenyimpananktp;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++import android.view.View;
++import android.widget.ProgressBar;
++import android.widget.SearchView;
++import android.widget.Toast;
++
++import androidx.appcompat.app.AppCompatActivity;
++import androidx.recyclerview.widget.LinearLayoutManager;
++import androidx.recyclerview.widget.RecyclerView;
++
++import com.firebase.ui.database.FirebaseRecyclerOptions;
++import com.google.android.gms.tasks.OnSuccessListener;
++import com.google.firebase.database.DataSnapshot;
++import com.google.firebase.database.DatabaseError;
++import com.google.firebase.database.DatabaseReference;
++import com.google.firebase.database.FirebaseDatabase;
++import com.google.firebase.database.Query;
++import com.google.firebase.database.ValueEventListener;
++import com.google.firebase.storage.FirebaseStorage;
++import com.google.firebase.storage.StorageReference;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public abstract class ItemsActivityUser extends AppCompatActivity implements RecyclerAdapter.OnItemClickListener, SearchView.OnQueryTextListener {
++
++    private RecyclerView mRecyclerView;
++    private RecyclerAdapter mAdapter;
++    private ProgressBar mProgressBar;
++    private FirebaseStorage mStorage;
++    private FirebaseRecyclerOptions<Ktp> options;
++    private RecyclerAdapter adapter;
++    private DatabaseReference mDatabaseRef;
++    private ValueEventListener mDBListener;
++    private List<Ktp> mKtps;
++
++
++    private void openDetailActivity(String[] data){
++        Intent intent = new Intent(this, DetailsActivity.class);
++        intent.putExtra("NAMA_KEY",data[0]);
++        intent.putExtra("NIK_KEY",data[1]);
++        intent.putExtra("IMAGE_KEY",data[2]);
++        startActivity(intent);
++    }
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate ( savedInstanceState );
++        setContentView ( R.layout.activity_items_user );
++
++
++        mRecyclerView = findViewById(R.id.mRecyclerView);
++        mRecyclerView.setHasFixedSize(true);
++        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
++
++        mProgressBar = findViewById(R.id.myDataLoaderProgressBar);
++        mProgressBar.setVisibility(View.VISIBLE);
++
++        mKtps = new ArrayList<>();
++        mAdapter = new RecyclerAdapter (ItemsActivityUser.this, mKtps);
++        mRecyclerView.setAdapter(mAdapter);
++        mAdapter.setOnItemClickListener(ItemsActivityUser.this);
++
++        mStorage = FirebaseStorage.getInstance();
++        mDatabaseRef = FirebaseDatabase.getInstance().getReference("KTP");
++
++        mDBListener = mDatabaseRef.addValueEventListener(new ValueEventListener() {
++            @Override
++            public void onDataChange(DataSnapshot dataSnapshot) {
++
++                mKtps.clear();
++
++                for (DataSnapshot ktpSnapshot : dataSnapshot.getChildren()) {
++                    Ktp upload = ktpSnapshot.getValue(Ktp.class);
++                    upload.setKey(ktpSnapshot.getKey());
++                    mKtps.add(upload);
++                }
++                mAdapter.notifyDataSetChanged();
++                mProgressBar.setVisibility(View.GONE);
++            }
++
++            @Override
++            public void onCancelled(DatabaseError databaseError) {
++                Toast.makeText(ItemsActivityUser.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
++                mProgressBar.setVisibility(View.INVISIBLE);
++            }
++
++        });
++    }
++
++    public void onItemClick(int position) {
++        Ktp clickedKtp=mKtps.get(position);
++        String[] ktpData={clickedKtp.getnama(),clickedKtp.getnik(),clickedKtp.getImageUrl()};
++        openDetailActivity(ktpData);
++    }
++
++    @Override
++    public void onShowItemClick(int position) {
++        Ktp clickedKtp=mKtps.get(position);
++        String[] ktpData={clickedKtp.getnama(),clickedKtp.getnik(),clickedKtp.getImageUrl()};
++        openDetailActivity(ktpData);
++    }
++
++
++
++
++        @Override
++        public boolean onCreateOptionsMenu(Menu menu) {
++            // Inflate the menu options from the res/menu/menu_editor.xml file.
++            // This adds menu items to the app bar.
++            getMenuInflater().inflate(R.menu.searchmenu, menu);
++            MenuItem searchItem = menu.findItem(R.id.cariData);
++            SearchView searchView = (SearchView) searchItem.getActionView();
++            searchView.setOnQueryTextListener(this);
++            searchView.setIconified(true);
++            searchView.setQueryHint("Cari...");
++            return true;
++        }
++        @Override
++        public boolean onQueryTextSubmit(String query) {
++
++            return false;
++        }
++
++        @Override
++        public boolean onQueryTextChange(String query) {
++            Query fireBaseSearchQuery = mDatabaseRef.orderByChild("nama").startAt(query).endAt(query + "\uf8ff");
++
++            fireBaseSearchQuery.addValueEventListener(new ValueEventListener() {
++                @Override
++                public void onDataChange(DataSnapshot dataSnapshot) {
++                    mKtps.clear();
++                    if (dataSnapshot.exists() && dataSnapshot.getChildrenCount() > 0) {
++                        for (DataSnapshot ktpSnapshot : dataSnapshot.getChildren()) {
++                            Ktp upload = ktpSnapshot.getValue(Ktp.class);
++                            upload.setKey(ktpSnapshot.getKey());
++                            mKtps.add(upload);
++                        }
++                        mAdapter.notifyDataSetChanged();
++                    } else {
++                        Toast.makeText(ItemsActivityUser.this, "Tidak ada data", Toast.LENGTH_SHORT).show();
++                    }
++                }
++
++                @Override
++                public void onCancelled(DatabaseError databaseError) {
++                    Toast.makeText(ItemsActivityUser.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
++                }
++            });
++            return false;
++        }
++
++
++}
+Index: app/src/main/res/layout/activity_items_user.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_items_user.xml	(date 1629532001794)
++++ app/src/main/res/layout/activity_items_user.xml	(date 1629532001794)
+@@ -0,0 +1,39 @@
++<?xml version="1.0" encoding="utf-8"?>
++
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    tools:context=".ItemsActivityUser">
++
++
++
++    <TextView
++        android:id="@+id/textView"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:text="Daftar KTP"
++        android:textAlignment="center"
++        android:textStyle="bold"
++        android:textAppearance="@style/TextAppearance.AppCompat.Large"
++        android:textColor="@color/colorAccent" />
++
++    <ProgressBar
++        android:id="@+id/myDataLoaderProgressBar"
++        style="?android:attr/progressBarStyleHorizontal"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:indeterminate="true"
++        android:indeterminateBehavior="cycle"
++        android:visibility="gone" />
++
++
++    <androidx.recyclerview.widget.RecyclerView
++        android:id="@+id/mRecyclerView"
++        android:layout_weight="0.5"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content" />
++
++</LinearLayout>
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision 5e23479881601626e24a76867168e6c3e0687394)
++++ app/src/main/AndroidManifest.xml	(date 1629511833611)
+@@ -1,8 +1,12 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:dist="http://schemas.android.com/apk/distribution"
++    xmlns:tools="http://schemas.android.com/tools"
+     package="com.ardi.apppenyimpananktp">
+ 
+-    <uses-permission android:name="android.permission.INTERNET"/>
++    <uses-permission
++        android:name="android.permission.INTERNET"
++        tools:ignore="ManifestOrder" />
+ 
+     <application
+         android:allowBackup="true"
+@@ -10,15 +14,26 @@
+         android:label="@string/app_name"
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+-        android:theme="@style/AppTheme">
++        android:theme="@style/AppTheme"
++        tools:ignore="GoogleAppIndexingWarning">
++        <activity android:name=".UILogin.ForgotPasswordActivity" />
++        <activity android:name=".UILogin.SignInActivity" />
++        <activity android:name=".UILogin.SignUpActivity" />
++        <activity android:name=".UILogin.WelcomeActivity">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
+         <activity
+             android:name=".MainActivity"
+-            android:label="App Penyimpanan KTP">
++            android:label="App Penyimpanan KTP" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+-                <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
++
+         <activity
+             android:name=".ItemsActivity"
+             android:label="Halaman Daftar KTP "
+@@ -31,7 +46,8 @@
+             android:name=".DetailsActivity"
+             android:label="Halaman Detil Data"
+             android:parentActivityName=".ItemsActivity" />
+-
+     </application>
+ 
++    <dist:module dist:instant="true" />
++
+ </manifest>
+\ No newline at end of file
