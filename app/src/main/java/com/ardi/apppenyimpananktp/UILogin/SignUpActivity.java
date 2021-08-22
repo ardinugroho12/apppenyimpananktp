@@ -22,6 +22,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -49,7 +50,7 @@ public class SignUpActivity extends AppCompatActivity {
 
 
         mAuth = FirebaseAuth.getInstance();
-        mDbase= FirebaseDatabase.getInstance();
+        mDbase = FirebaseDatabase.getInstance();
 
         signUpEmailTextInput = findViewById(R.id.signUpEmailTextInput);
         signUpPasswordTextInput = findViewById(R.id.signUpPasswordTextInput);
@@ -93,7 +94,7 @@ public class SignUpActivity extends AppCompatActivity {
                                 FirebaseUser user = mAuth.getCurrentUser();
 
                                 try {
-                                    if (user != null)
+                                    if (user != null) {
                                         user.sendEmailVerification()
                                                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                                                     @Override
@@ -129,13 +130,35 @@ public class SignUpActivity extends AppCompatActivity {
                                                         }
                                                     }
                                                 });
-
+                                        Map<String, Object> map = new HashMap<>();
+                                        map.put("email", signUpEmailTextInput.getText().toString());
+                                        map.put("password", signUpPasswordTextInput.getText().toString());
+//                                      map.put("status",signUpStatusTextInput.getText().toString());
+                                        mDbase.getInstance().getReference().child("USER").push()
+                                                .setValue(map)
+                                                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                                    @Override
+                                                    public void onSuccess(Void aVoid) {
+                                                        signUpEmailTextInput.setText("");
+                                                        signUpPasswordTextInput.setText("");
+                                                        signUpEmailTextInput.setText("");
+                                                        Toast.makeText(getApplicationContext(), "Inserted Successfully", Toast.LENGTH_LONG).show();
+                                                    }
+                                                })
+                                                .addOnFailureListener(new OnFailureListener() {
+                                                    @Override
+                                                    public void onFailure(@NonNull Exception e) {
+                                                        Toast.makeText(getApplicationContext(), "Could not insert", Toast.LENGTH_LONG).show();
+                                                    }
+                                                });
+                                    }
                                 } catch (Exception e) {
                                     errorView.setText(e.getMessage());
                                 }
                             } else {
                                 // If sign in fails, display a message to the user.
-                                Log.w(TAG, "createUserWithEmail:failure", task.getException());
+                                String errorCode = ((FirebaseAuthException) task.getException()).getErrorCode();
+                                Log.w(TAG, errorCode, task.getException());
                                 Toast.makeText(SignUpActivity.this, "Authentication failed.",
                                         Toast.LENGTH_SHORT).show();
 
@@ -147,33 +170,10 @@ public class SignUpActivity extends AppCompatActivity {
 
                         }
                     });
-                    Map<String,Object> map=new HashMap<>();
-                    map.put("email",signUpEmailTextInput.getText().toString());
-                    map.put("password",signUpPasswordTextInput.getText().toString());
-                    map.put("status",signUpStatusTextInput.getText().toString());
-                    mDbase.getInstance().getReference().child("USER").push()
-                            .setValue(map)
-                            .addOnSuccessListener(new OnSuccessListener<Void>() {
-                                @Override
-                                public void onSuccess(Void aVoid) {
-                                    signUpEmailTextInput.setText("");
-                                    signUpPasswordTextInput.setText("");
-                                    signUpEmailTextInput.setText("");
-                                    Toast.makeText(getApplicationContext(),"Inserted Successfully",Toast.LENGTH_LONG).show();
-                                }
-                            })
-                            .addOnFailureListener(new OnFailureListener() {
-                                @Override
-                                public void onFailure(@NonNull Exception e)
-                                {
-                                    Toast.makeText(getApplicationContext(),"Could not insert",Toast.LENGTH_LONG).show();
-                                }
-                            });
                 }
 
             }
         });
-
 
 
     }
