@@ -133,7 +133,7 @@ public class SignUpActivity extends AppCompatActivity {
                                         Map<String, Object> map = new HashMap<>();
                                         map.put("email", signUpEmailTextInput.getText().toString());
                                         map.put("password", signUpPasswordTextInput.getText().toString());
-//                                      map.put("status",signUpStatusTextInput.getText().toString());
+                                        map.put("status",2);
                                         mDbase.getInstance().getReference().child("USER").push()
                                                 .setValue(map)
                                                 .addOnSuccessListener(new OnSuccessListener<Void>() {
